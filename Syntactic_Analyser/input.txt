@@ -1,0 +1,16 @@
+keyword	int
+identifier	main
+delimiter	(
+delimiter	)
+delimiter	{
+keyword int
+identifier a
+delimiter ;
+identifier a
+operator =
+const 5
+delimiter ;
+keyword	return
+const	0
+delimiter	;
+delimiter	}

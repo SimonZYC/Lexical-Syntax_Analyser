@@ -1,0 +1,11 @@
+VARLIST -> int identifier 
+SEMICOLON -> ; 
+STATEMENT -> VARLIST SEMICOLON 
+PROGRAM -> STATEMENT 
+SEMICOLON -> ; 
+EXP -> identifier operator const SEMICOLON 
+PROGRAM -> PROGRAM EXP 
+END -> return const ; } 
+MAIN -> PROGRAM END 
+S -> int main ( ) { MAIN 
+Yeah!
